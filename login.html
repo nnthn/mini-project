@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles2.css" />
+  </head>
+  <body>
+    <nav style="display:flex">
+        <div class="navi"><a href="/index.html">Home</a></div>
+        <div class="navi"><a href="/about.html">About</a></div>
+        <div class="navi"><a href="/rooms.html">Rooms</a></div>
+        <div class="navi"><a href="/contact.html">Contact</a></div>
+       
+    </nav>
+    <h1>Registration Form</h1>
+  
+    <form>
+      <fieldset>
+        <label for="first-name">First Name: <input id="first-name" type="text"/></label>
+        <label for="last-name">Last Name: <input id="last-name" type="text"/></label>
+        <label for="email">Email: <input id="email" type="email"/></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" required/></label>
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

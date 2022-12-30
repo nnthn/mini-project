@@ -1,0 +1,66 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding:1rem;
+
+}
+div{
+    font-size: 1.3rem;
+    margin: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: linear-gradient(#0a060eb9,#10153F) ;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+   
+}
+h3,h1{
+    color: rgba(35, 38, 54, 0.357);
+    font-family: 'Poppins', sans-serif;
+    margin: 50px 80px ;
+}
+h1{
+    font-size: 7rem;
+}
+.bottom{
+    margin-top: 28rem;
+}
+a{
+    color: #FFD15B;
+text-decoration: none;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+        margin-bottom: 60px;
+}
+.container .card .imgbx{
+    max-width: 600px;
+    flex: 0 0 600px;
+    margin-left: 1100px;
+}
+.container .card .imgbx img{
+    max-width: 600px;
+}
+.container .card .content{
+    margin-left: 20px;
+}
+.container .card .content{
+    
+    margin-left: 60px;
+    margin-right: -538px;
+    color: aliceblue;
+}
+#booking{
+    color: white;
+    font-size: 1.7rem;
+    font-weight: bold;
+}

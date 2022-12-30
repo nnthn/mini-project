@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Booking</title>
+    <link rel="stylesheet" href="styles2.css" />
+  </head>
+  <body>
+    <nav style="display:flex">
+        <div class="navi"><a href="/index.html">Home</a></div>
+        <div class="navi"><a href="/about.html">About</a></div>
+        <div class="navi"><a href="/rooms.html">Rooms</a></div>
+        <div class="navi"><a href="/contact.html">Contact</a></div>
+       
+    </nav>
+    <h1>Booking</h1>
+  
+    <form>
+      <fieldset>
+        <label for="first-name">Username:<input id="first-name" type="text"/></label>
+        <label for="email">Email: <input id="email" type="email"/></label>
+        <label for="number">Room number:<input id="number" type="number" pattern="[0-5]{1,}" required/></label>
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
